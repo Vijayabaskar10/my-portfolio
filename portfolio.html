@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="icon" href="/images/Icon.png"/>
+    <link rel="stylesheet" href="portfolio.css"/>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
+    <title>My Personal Portfolio</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo">Portfolio</a>
+      <input type="checkbox" id="menu-toggle"/>
+
+      <!-- Menu Icon Label -->
+      <label for="menu-toggle" id="menu-icon">
+        <i class="bx bx-menu"></i>
+      </label>
+      <nav class="navbar-container">
+        <ul class="nav-links">
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#CourseWork">CourseWork</a></li>
+          <li><a href="#Skills">Skills</a></li>
+          <li><a href="#Contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="icon-container">
+      <i class="bx bx-brightness-half" id="theme-toggle"></i>
+      <div class="scroll-icons">
+        <i class="bx bxs-chevrons-up bx-fade-up-hover" id="scroll-up"></i>
+        <i class="bx bxs-chevrons-down bx-fade-down-hover" id="scroll-down"></i>
+      </div>
+    </div>
+
+    <main class="main">
+      <section id="Home" class="home-section">
+        <div class="About-section">
+          <h1>
+            Hello I'm <span><em>Vijayabaskar</em></span>
+          </h1>
+          <h2>I'm a <span class="typing">Java Enthusiast</span></h2>
+          <p>
+            I am currently a 3rd-year Computer Science student with a strong
+            interest in software development. I have built a solid foundation in
+            front-end technologies and JavaScript, and I am actively deepening
+            my knowledge in Java and data structures to strengthen my
+            problem-solving and programming skills. I am passionate about
+            learning, improving, and building real-world applications that
+            combine good design with efficient code.
+          </p>
+        </div>
+        <div class="image-container">
+          <img src="images/intro-pic.png" alt="Photo"/>
+        </div>
+      </section>
+      <section id="CourseWork" class="coursework-section">
+        <div class="coursework-box">
+          <h2>CourseWork</h2>
+          <p>
+            <strong>Currently Learning:</strong> Java, DSA (Arrays, Linked List,
+            etc.)
+          </p>
+          <p><strong>Completed Courses:</strong></p>
+          <ul>
+            <li>Basics of Java Programming</li>
+            <li>Introduction to HTML/CSS/JS</li>
+            <li>NPTEL Java Programming</li>
+            <li>Object-Oriented Programming Principles</li>
+            <li>Data Structures and Algorithms</li>
+          </ul>
+        </div>
+        <div class="course-icon">
+          <div class="icon-box">
+            <img src="images/java.png" alt="Java"/>
+            <div class="tooltip-label">Java</div>
+          </div>
+          <div class="icon-box">
+            <img src="images/html.png" alt="HTML"/>
+            <div class="tooltip-label">HTML</div>
+          </div>
+          <div class="icon-box">
+            <img src="images/css-3.png" alt="CSS"/>
+            <div class="tooltip-label">CSS</div>
+          </div>
+          <div class="icon-box">
+            <img src="images/java-script.png" alt="JavaScript"/>
+            <div class="tooltip-label">JavaScript</div>
+          </div>
+          <div class="icon-box">
+            <img src="images/complexity.png" alt="DSA"/>
+            <div class="tooltip-label">DSA</div>
+          </div>
+          <div class="icon-box">
+            <img src="images/C icon.png" alt="C"/>
+            <div class="tooltip-label">C</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="Skills">
+        <div class="Skill-container">
+          <div class="skills-box">
+            <h1>Programming Languages</h1>
+            <ul>
+              <li>
+                Java – Core Java, OOP concepts, exception handling,
+                multithreading
+              </li>
+              <li>C – Basics, control structures, functions</li>
+              <li>JavaScript – Basic scripting for dynamic web pages</li>
+            </ul>
+          </div>
+          <div class="skills-box">
+            <h1>Frontend Developer</h1>
+            <ul>
+              <li>HTML5 – Semantic tags, forms, structure</li>
+              <li>CSS3 – Styling, Flexbox, basic layout techniques</li>
+              <li>
+                Responsive Design – Mobile-friendly page layout fundamentals
+              </li>
+            </ul>
+          </div>
+          <div class="skills-box">
+            <h1>Core CS Concepts</h1>
+            <ul>
+              <li>
+                Data Structures – Arrays, Linked Lists, Stacks, Queues
+                (currently learning)
+              </li>
+              <li>Algorithms – Searching, Sorting (basic understanding)</li>
+              <li>DBMS – Tables, Primary/Foreign Keys, ER Diagrams</li>
+            </ul>
+          </div>
+          <div class="skills-box">
+            <h1>Soft Skills</h1>
+            <ul>
+              <li>Problem-solving mindset</li>
+              <li>Willingness to learn new technologies</li>
+              <li>Strong foundation building approach</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section id="Contact">
+        <h1 style="text-align: center">Contact</h1>
+        <p style="text-align: center; font-size: larger">
+          Feel free to reach out to me via the platforms below or send a message
+          using the contact form.
+        </p>
+        <div class="contact-icons">
+          <a href="https://github.com/Vijayabaskar10"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/vjbaskar10"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="mailto:vijayabaskarm10@gmail.com"
+            ><i class="bx bx-envelope"></i
+          ></a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-container">
+        <p style="text-align: center">
+          &copy; 2025 <strong><a href="#">Vijayabaskar M</a></strong
+          >. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
